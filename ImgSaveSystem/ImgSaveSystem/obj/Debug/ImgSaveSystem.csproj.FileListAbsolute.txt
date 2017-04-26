@@ -1,0 +1,9 @@
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\bin\Debug\ImgSaveSystem.exe.config
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\bin\Debug\ImgSaveSystem.exe
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\bin\Debug\ImgSaveSystem.pdb
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\obj\Debug\ImgSaveSystem.csprojResolveAssemblyReference.cache
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\obj\Debug\ImgSaveSystem.Form1.resources
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\obj\Debug\ImgSaveSystem.Properties.Resources.resources
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\obj\Debug\ImgSaveSystem.csproj.GenerateResource.Cache
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\obj\Debug\ImgSaveSystem.exe
+c:\users\daejung\documents\visual studio 2017\Projects\ImgSaveSystem\ImgSaveSystem\obj\Debug\ImgSaveSystem.pdb
