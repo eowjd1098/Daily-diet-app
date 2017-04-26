@@ -35,9 +35,8 @@ public class MainButton extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId())
         {
-            case R.id.button1:
-                startActivity(new Intent(getApplicationContext(),TableKcal.class));break;
-            case R.id.button2:startActivity(new Intent(getApplicationContext(),TableFood.class));break;
+            case R.id.button1:startActivity(new Intent(getApplicationContext(),TableKcal.class));break;
+            case R.id.button2:startActivity(new Intent(getApplicationContext(),TableFoodCamera.class));break;
             case R.id.button3:startActivity(new Intent(getApplicationContext(),TableExersice.class));break;
         }
     }

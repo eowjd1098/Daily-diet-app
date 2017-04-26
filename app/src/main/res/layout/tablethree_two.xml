@@ -1,0 +1,89 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner">
+        </Spinner>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이동하기"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="복부 다이어트 끝판왕! 뱃살빼는운동으로 11자 복근 만들기\n"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textColor="#FF007F"
+            android:text="운동명"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="4분 뱃살 태우기 운동\n브이 업 크런치\n사이드 크런치\n"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textColor="#FF007F"
+            android:text="운동부위"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="복부\n"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textColor="#FF007F"
+            android:text="운동방법"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="위 영상처럼 다리를 교차하고 팔로 지탱을 한다.\n그런 다음 다리를 가슴으로 최대한 당겨준다. 이때 복부는 항상 긴장시킨다.\n30초가 지나면 교차한 다리를 바꿔준다."/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

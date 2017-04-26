@@ -1,5 +1,8 @@
 package com.example.dktkg.dda;
 
+/**
+ * Created by dktkg on 2017-04-21.
+ */
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,17 +27,16 @@ import java.util.ArrayList;
  * Created by dktkg on 2017-03-23.
  */
 
-public class TableExersice extends YouTubeBaseActivity implements
+public class TableExersice_two extends YouTubeBaseActivity implements
         YouTubePlayer.OnInitializedListener{
     private static final int RECOVERY_DIALOG_REQUEST = 1;
-
     Button button;
     ArrayList arrayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tablethree);
+        setContentView(R.layout.tablethree_two);
 
         arrayList = new ArrayList();
         arrayList.add("다리");
@@ -50,7 +52,7 @@ public class TableExersice extends YouTubeBaseActivity implements
         Button button = (Button)findViewById(R.id.button);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
             @Override
-            public void onItemSelected(AdapterView<?> arg0,View arg1,int arg2, long arg3){
+            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3){
                 select_item[0] = String.valueOf(arrayList.get(arg2));
 
             }
@@ -63,17 +65,16 @@ public class TableExersice extends YouTubeBaseActivity implements
             @Override
             public void onClick(View v){
                 if(select_item[0].equals("다리")){
-                    Intent intent = new Intent(TableExersice.this,TableExersice.class);
+                    Intent intent = new Intent(TableExersice_two.this,TableExersice.class);
                     startActivity(intent);
                     finish();
                 }else if (select_item[0].equals("뱃살")){
-                    Intent intent = new Intent(TableExersice.this,TableExersice_two.class);
+                    Intent intent = new Intent(TableExersice_two.this,TableExersice_two.class);
                     startActivity(intent);
                     finish();
                 }
             }
         });
-
         Log.d("youtube Test",
                 "사용가능여부:"+YouTubeApiServiceUtil.isYouTubeApiServiceAvailable(this)); //SUCCSESS
 
@@ -108,9 +109,9 @@ public class TableExersice extends YouTubeBaseActivity implements
         if (!wasRestored) {
             //player.cueVideo("wKJ9KzGQq0w"); //video id.
 
-            player.cueVideo("59ylvWlszgg");  //http://www.youtube.com/watch?v=IA1hox-v0jQ
-         //   player.cueVideo("_Ut7YsXmew8");
-         //   player.cueVideo("HtepRj4TzSo");
+            //player.cueVideo("_Ut7YsXmew8");  //http://www.youtube.com/watch?v=IA1hox-v0jQ
+              // player.cueVideo("_Ut7YsXmew8");
+               player.cueVideo("55G5BONVxVQ");
             //cueVideo(String videoId)
             //지정한 동영상의 미리보기 이미지를 로드하고 플레이어가 동영상을 재생하도록 준비하지만
             //play()를 호출하기 전에는 동영상 스트림을 다운로드하지 않습니다.
