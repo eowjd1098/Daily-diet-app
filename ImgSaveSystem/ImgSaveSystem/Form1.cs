@@ -34,8 +34,8 @@ namespace ImgSaveSystem
             // --------------------------------------------------- 
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.Headers.Add("X-Naver-Client-Id", "ynggkN0M4bjWZKbCwGrW"); // 클라이언트 아이디
-            request.Headers.Add("X-Naver-Client-Secret", "Ob05r06CbM");       // 클라이언트 시크릿
+            request.Headers.Add("X-Naver-Client-Id", "key"); // 클라이언트 아이디
+            request.Headers.Add("X-Naver-Client-Secret", "key");       // 클라이언트 시크릿
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
             string status = response.StatusCode.ToString();
@@ -124,8 +124,8 @@ namespace ImgSaveSystem
             // --------------------------------------------------- 
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.Headers.Add("X-Naver-Client-Id", "ynggkN0M4bjWZKbCwGrW"); // 클라이언트 아이디
-            request.Headers.Add("X-Naver-Client-Secret", "Ob05r06CbM");       // 클라이언트 시크릿
+            request.Headers.Add("X-Naver-Client-Id", "key"); // 클라이언트 아이디
+            request.Headers.Add("X-Naver-Client-Secret", "key");       // 클라이언트 시크릿
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
             string status = response.StatusCode.ToString();
