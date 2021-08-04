@@ -1,6 +1,6 @@
 # Daily-diet-app
 
-App - Android Client : Kim KH
+App - Android Client : Kim KH </br>
 Server - Python(Ejango) Web Server : Jung DJ
 AI PlatForm - Python(TenSorFlow) : Song MS
 
