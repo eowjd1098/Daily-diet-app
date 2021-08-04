@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Service" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Windows.Media" />
+  <xs:complexType name="UserInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alarm" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BackgroundImage" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mid" type="xs:int" />
+      <xs:element minOccurs="0" name="ProfileImage" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="StateMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserInfo" nillable="true" type="tns:UserInfo" />
+  <xs:complexType name="RoomInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsGroup" type="xs:boolean" />
+      <xs:element minOccurs="0" name="JoinCount" type="xs:int" />
+      <xs:element minOccurs="0" name="LastMsgId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoomId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoomInfo" nillable="true" type="tns:RoomInfo" />
+  <xs:complexType name="ArrayOfUserInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserInfo" nillable="true" type="tns:UserInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserInfo" nillable="true" type="tns:ArrayOfUserInfo" />
+  <xs:complexType name="ArrayOfCommunicationMsg">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CommunicationMsg" nillable="true" type="tns:CommunicationMsg" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCommunicationMsg" nillable="true" type="tns:ArrayOfCommunicationMsg" />
+  <xs:complexType name="CommunicationMsg">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContentType" type="tns:ContentType" />
+      <xs:element minOccurs="0" name="MsgId" type="xs:int" />
+      <xs:element minOccurs="0" name="MsgType" type="xs:boolean" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Windows.Media" minOccurs="0" name="ProfileImage" nillable="true" type="q1:ImageBrush" />
+      <xs:element minOccurs="0" name="Roomid" type="xs:int" />
+      <xs:element minOccurs="0" name="SendedImage" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SendedMedia" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SendedTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SenderMid" type="xs:int" />
+      <xs:element minOccurs="0" name="SenderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="_ReadCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CommunicationMsg" nillable="true" type="tns:CommunicationMsg" />
+  <xs:simpleType name="ContentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Text" />
+      <xs:enumeration value="Image" />
+      <xs:enumeration value="Media" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ContentType" nillable="true" type="tns:ContentType" />
+</xs:schema>

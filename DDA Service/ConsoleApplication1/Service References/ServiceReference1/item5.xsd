@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/System.Windows.Media" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System.Windows.Media" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Windows" />
+  <xs:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Windows.Media.Animation" />
+  <xs:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ImageBrush">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:TileBrush">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ImageSource" nillable="true" type="tns:ImageSource" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ImageBrush" nillable="true" type="tns:ImageBrush" />
+  <xs:complexType name="TileBrush">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Brush">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AlignmentX" type="tns:AlignmentX" />
+          <xs:element minOccurs="0" name="AlignmentY" type="tns:AlignmentY" />
+          <xs:element minOccurs="0" name="Stretch" type="tns:Stretch" />
+          <xs:element minOccurs="0" name="TileMode" type="tns:TileMode" />
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Windows" minOccurs="0" name="Viewbox" type="q1:Rect" />
+          <xs:element minOccurs="0" name="ViewboxUnits" type="tns:BrushMappingMode" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Windows" minOccurs="0" name="Viewport" type="q2:Rect" />
+          <xs:element minOccurs="0" name="ViewportUnits" type="tns:BrushMappingMode" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TileBrush" nillable="true" type="tns:TileBrush" />
+  <xs:complexType name="Brush">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Windows.Media.Animation" base="q3:Animatable">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Opacity" type="xs:double" />
+          <xs:element minOccurs="0" name="RelativeTransform" nillable="true" type="tns:Transform" />
+          <xs:element minOccurs="0" name="Transform" nillable="true" type="tns:Transform" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Brush" nillable="true" type="tns:Brush" />
+  <xs:complexType name="Transform">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:GeneralTransform">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Transform" nillable="true" type="tns:Transform" />
+  <xs:complexType name="GeneralTransform">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System.Windows.Media.Animation" base="q4:Animatable">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GeneralTransform" nillable="true" type="tns:GeneralTransform" />
+  <xs:simpleType name="AlignmentX">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Center" />
+      <xs:enumeration value="Right" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AlignmentX" nillable="true" type="tns:AlignmentX" />
+  <xs:simpleType name="AlignmentY">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Top" />
+      <xs:enumeration value="Center" />
+      <xs:enumeration value="Bottom" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AlignmentY" nillable="true" type="tns:AlignmentY" />
+  <xs:simpleType name="Stretch">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Fill" />
+      <xs:enumeration value="Uniform" />
+      <xs:enumeration value="UniformToFill" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Stretch" nillable="true" type="tns:Stretch" />
+  <xs:simpleType name="TileMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Tile">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="FlipX">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="FlipY">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="FlipXY">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TileMode" nillable="true" type="tns:TileMode" />
+  <xs:simpleType name="BrushMappingMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Absolute" />
+      <xs:enumeration value="RelativeToBoundingBox" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="BrushMappingMode" nillable="true" type="tns:BrushMappingMode" />
+  <xs:complexType name="ImageSource">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System.Windows.Media.Animation" base="q5:Animatable">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ImageSource" nillable="true" type="tns:ImageSource" />
+</xs:schema>

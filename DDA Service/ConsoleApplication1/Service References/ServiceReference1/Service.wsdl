@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSDualHttpBinding_IService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="600000" />
+          <wsrm:AcknowledgementInterval Milliseconds="200" />
+        </wsrm:RMAssertion>
+        <cdp:CompositeDuplex xmlns:cdp="http://schemas.microsoft.com/net/2006/06/duplex" />
+        <ow:OneWay xmlns:ow="http://schemas.microsoft.com/ws/2005/05/routing/policy" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Service" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Windows.Media" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Windows.Media.Animation" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Windows" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/System.Windows.Threading" />
+      <xsd:import schemaLocation="http://222.118.68.240:10400/?xsd=xsd7" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_ConnectTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectTest" />
+  </wsdl:message>
+  <wsdl:message name="IService_ConnectTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMember" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_Connect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Connect" />
+  </wsdl:message>
+  <wsdl:message name="IService_Connect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_LoginOverlap_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginOverlap" />
+  </wsdl:message>
+  <wsdl:message name="IService_LoginOverlap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginOverlapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_LogOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogOut" />
+  </wsdl:message>
+  <wsdl:message name="IService_LogOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_FindMemberByEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindMemberByEmail" />
+  </wsdl:message>
+  <wsdl:message name="IService_FindMemberByEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindMemberByEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_FindRoomByMid_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindRoomByMid" />
+  </wsdl:message>
+  <wsdl:message name="IService_FindRoomByMid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindRoomByMidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_FindMyFriendList_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindMyFriendList" />
+  </wsdl:message>
+  <wsdl:message name="IService_FindMyFriendList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindMyFriendListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetMsgList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMsgList" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetMsgList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMsgListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SendMsg_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMsg" />
+  </wsdl:message>
+  <wsdl:message name="IService_SendMsg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendMsgResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_Join_InputMessage">
+    <wsdl:part name="parameters" element="tns:Join" />
+  </wsdl:message>
+  <wsdl:message name="IService_Join_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JoinResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_Test_InputMessage">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="IService_Test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_Receive_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:Receive" />
+  </wsdl:message>
+  <wsdl:message name="IService_UserEnter_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserEnter" />
+  </wsdl:message>
+  <wsdl:message name="IService_UserLeave_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserLeave" />
+  </wsdl:message>
+  <wsdl:message name="IService_Finished_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:Finished" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="ConnectTest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ConnectTest" message="tns:IService_ConnectTest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ConnectTestResponse" message="tns:IService_ConnectTest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/AddMember" message="tns:IService_AddMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/AddMemberResponse" message="tns:IService_AddMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Connect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/Connect" message="tns:IService_Connect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ConnectResponse" message="tns:IService_Connect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/Login" message="tns:IService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/LoginResponse" message="tns:IService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginOverlap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/LoginOverlap" message="tns:IService_LoginOverlap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/LoginOverlapResponse" message="tns:IService_LoginOverlap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/LogOut" message="tns:IService_LogOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/LogOutResponse" message="tns:IService_LogOut_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindMemberByEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/FindMemberByEmail" message="tns:IService_FindMemberByEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/FindMemberByEmailResponse" message="tns:IService_FindMemberByEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindRoomByMid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/FindRoomByMid" message="tns:IService_FindRoomByMid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/FindRoomByMidResponse" message="tns:IService_FindRoomByMid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/AddFriend" message="tns:IService_AddFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/AddFriendResponse" message="tns:IService_AddFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindMyFriendList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/FindMyFriendList" message="tns:IService_FindMyFriendList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/FindMyFriendListResponse" message="tns:IService_FindMyFriendList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMsgList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetMsgList" message="tns:IService_GetMsgList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetMsgListResponse" message="tns:IService_GetMsgList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMsg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SendMsg" message="tns:IService_SendMsg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SendMsgResponse" message="tns:IService_SendMsg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Join">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/Join" message="tns:IService_Join_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/JoinResponse" message="tns:IService_Join_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/Test" message="tns:IService_Test_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/TestResponse" message="tns:IService_Test_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Receive">
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/Receive" message="tns:IService_Receive_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserEnter">
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UserEnter" message="tns:IService_UserEnter_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserLeave">
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UserLeave" message="tns:IService_UserLeave_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Finished">
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/Finished" message="tns:IService_Finished_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSDualHttpBinding_IService" type="tns:IService">
+    <wsp:PolicyReference URI="#WSDualHttpBinding_IService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConnectTest">
+      <soap12:operation soapAction="http://tempuri.org/IService/ConnectTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMember">
+      <soap12:operation soapAction="http://tempuri.org/IService/AddMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Connect">
+      <soap12:operation soapAction="http://tempuri.org/IService/Connect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/IService/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginOverlap">
+      <soap12:operation soapAction="http://tempuri.org/IService/LoginOverlap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <soap12:operation soapAction="http://tempuri.org/IService/LogOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindMemberByEmail">
+      <soap12:operation soapAction="http://tempuri.org/IService/FindMemberByEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindRoomByMid">
+      <soap12:operation soapAction="http://tempuri.org/IService/FindRoomByMid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddFriend">
+      <soap12:operation soapAction="http://tempuri.org/IService/AddFriend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindMyFriendList">
+      <soap12:operation soapAction="http://tempuri.org/IService/FindMyFriendList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMsgList">
+      <soap12:operation soapAction="http://tempuri.org/IService/GetMsgList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMsg">
+      <soap12:operation soapAction="http://tempuri.org/IService/SendMsg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Join">
+      <soap12:operation soapAction="http://tempuri.org/IService/Join" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/IService/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Receive">
+      <soap12:operation soapAction="http://tempuri.org/IService/Receive" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserEnter">
+      <soap12:operation soapAction="http://tempuri.org/IService/UserEnter" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserLeave">
+      <soap12:operation soapAction="http://tempuri.org/IService/UserLeave" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Finished">
+      <soap12:operation soapAction="http://tempuri.org/IService/Finished" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="WSDualHttpBinding_IService" binding="tns:WSDualHttpBinding_IService">
+      <soap12:address location="http://222.118.68.240:10400/Service" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://222.118.68.240:10400/Service</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

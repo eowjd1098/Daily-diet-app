@@ -1,0 +1,273 @@
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\bin\Debug\Service.dll.config
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\bin\Debug\Service.dll
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\bin\Debug\Service.pdb
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\bin\Debug\MySql.Data.dll
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\obj\Debug\Service.dll
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\obj\Debug\Service.pdb
+C:\Users\Sunbit-47\Desktop\WCFServer\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\obj\Debug\Service.dll
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\obj\Debug\Service.pdb
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\bin\Debug\Service.dll.config
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\bin\Debug\Service.dll
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\bin\Debug\Service.pdb
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\bin\Debug\MySql.Data.dll
+C:\Users\Sunbit-47\Desktop\예광탄\WCFServer\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.1\Service\bin\Debug\Service.dll.config
+C:\Users\Sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.1\Service\bin\Debug\Service.dll
+C:\Users\Sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.1\Service\bin\Debug\Service.pdb
+C:\Users\Sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.1\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.1\Service\obj\Debug\Service.dll
+C:\Users\Sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.1\Service\obj\Debug\Service.pdb
+C:\Users\sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.2\Service\bin\Debug\Service.dll.config
+C:\Users\sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.2\Service\bin\Debug\Service.dll
+C:\Users\sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.2\Service\bin\Debug\Service.pdb
+C:\Users\sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.2\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.2\Service\obj\Debug\Service.dll
+C:\Users\sunbit-47\Desktop\WCFServer(httpbinding)v.0.0.2\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.2\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.2\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.2\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.2\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.2\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.2\Service\obj\Debug\Service.pdb
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\bin\Debug\Service.dll.config
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\bin\Debug\Service.dll
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\bin\Debug\Service.pdb
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\bin\Debug\MySql.Data.dll
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\obj\Debug\Service.dll
+C:\Users\Min\Desktop\WCFServer(httpbinding)v.0.0.3 - 복사본\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.4\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.4\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.4\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.4\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.4\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.4\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.7\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.7\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.7\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.7\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.7\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(httpbinding)v.0.0.7\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.0)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.1.0)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.0)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.0)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.1.0)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.0)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.2)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.1.2)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.2)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.2)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.1.2)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.2)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.3)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.1.3)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.3)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.3)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.1.3)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.3)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.3) - 복사본\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.1.3) - 복사본\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.3) - 복사본\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.1.3) - 복사본\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.1.3) - 복사본\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.1.3) - 복사본\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.0)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.2.0)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.0)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.0)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.2.0)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.0)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.1)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.4)\Service\obj\Debug\Service.pdb
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\Service.dll.config
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\Service.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\Service.pdb
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\RDotNet.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\RDotNet.xml
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\obj\Debug\Service.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.5)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.6)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.7)\Service\obj\Debug\Service.pdb
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\Service.dll.config
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\Service.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\Service.pdb
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\RDotNet.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\RDotNet.xml
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\obj\Debug\Service.dll
+C:\Users\원화관 502-45\Desktop\WCFServer(v.0.2.8)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.2.9)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.0)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.1)\Service\obj\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\Service.dll.config
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\Service.pdb
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\RDotNet.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\RDotNet.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\obj\Debug\Service.dll
+C:\Users\server\Desktop\WCFServer(v.0.3.2)\Service\obj\Debug\Service.pdb
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\Service.dll.config
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\Service.dll
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\Service.pdb
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\DynamicInterop.dll
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.dll
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\DynamicInterop.xml
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.xml
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\obj\Debug\Service.dll
+G:\학교\3-1학기\bit 최종\시연회 자료\WCFServer(v.0.3.3)\Service\obj\Debug\Service.pdb
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\Service.dll.config
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\Service.dll
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\Service.pdb
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.dll
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.xml
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\obj\Debug\Service.dll
+C:\Users\Jung\Desktop\WCFServer(v.0.3.3)\Service\obj\Debug\Service.pdb
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\Service.dll.config
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\Service.dll
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\Service.pdb
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\RDotNet.dll
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\RDotNet.xml
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\obj\Debug\Service.dll
+C:\Users\daejung\Desktop\WCFServer(v.0.1)\Service\obj\Debug\Service.pdb
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\Service.dll.config
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\Service.dll
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\Service.pdb
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\RDotNet.dll
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\RDotNet.xml
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\obj\Debug\Service.dll
+C:\Users\daejung\Desktop\WCFServer(2-6백업)(v.0.1)\Service\obj\Debug\Service.pdb
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\Service.dll.config
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\Service.dll
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\Service.pdb
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\RDotNet.dll
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\RDotNet.xml
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\obj\Debug\Service.dll
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\obj\Debug\Service.pdb
+C:\Users\daejung\Desktop\DDAWCFServer(v01)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\Service.dll.config
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\Service.dll
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\Service.pdb
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\DynamicInterop.dll
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\MySql.Data.dll
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\RDotNet.dll
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\DynamicInterop.xml
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\RDotNet.xml
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\obj\Debug\Service.dll
+C:\Users\daejung\Desktop\DDAS(vR_03)\Service\obj\Debug\Service.pdb
