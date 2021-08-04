@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dktkg.ddatest">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".RegistActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".MainButton"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".MainPage"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TableExercise"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TableExercise_two"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TableKcal"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".TableFood"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".FoodInfo"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CalenderData"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>

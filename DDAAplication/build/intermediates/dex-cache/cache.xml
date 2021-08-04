@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\daejung\Desktop\DDAAplication\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b457441023b25f0b6bae28c76be982a4e49a8666">
+        <dex dex="C:\Users\daejung\Desktop\DDAAplication\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.6.2-jar-with-dependencies_cde5cae45e3ca84eeb5b181264b23c9d3c4a5968.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daejung\Desktop\DDAAplication\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\daejung\Desktop\DDAAplication\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_e720a25967418ad476d7163e10f03b3fd4685ade.jar" />
+    </item>
+
+</items>

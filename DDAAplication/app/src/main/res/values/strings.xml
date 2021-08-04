@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DaliyDiet</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="intro">BMI수치를 계산합니다.</string>
+    <string name="height_str">키</string>
+    <string name="weight_str">몸무게</string>
+    <string name="btn_str">수치 측정</string>
+</resources>
