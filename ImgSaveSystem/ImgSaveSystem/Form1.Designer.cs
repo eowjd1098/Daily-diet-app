@@ -38,15 +38,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // search_btn
             // 
-            this.search_btn.Location = new System.Drawing.Point(372, 98);
+            this.search_btn.Location = new System.Drawing.Point(289, 98);
             this.search_btn.Name = "search_btn";
-            this.search_btn.Size = new System.Drawing.Size(75, 23);
+            this.search_btn.Size = new System.Drawing.Size(80, 23);
             this.search_btn.TabIndex = 0;
-            this.search_btn.Text = "검색";
+            this.search_btn.Text = "네이버 검색";
             this.search_btn.UseVisualStyleBackColor = true;
             this.search_btn.Click += new System.EventHandler(this.search_btn_Click);
             // 
@@ -125,11 +126,22 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "저장 할 파일명 : 저장될 파일에 붙을 이름 ex) A_ : A_1,A_2....";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(375, 98);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "구글 검색";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(459, 225);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -159,6 +171,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
 
